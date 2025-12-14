@@ -1,0 +1,39 @@
+{
+  "name": "ai-news-aggregator",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for scraping and aggregating AI news and tools from multiple sources",
+  "main": "worker.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "node test/api-test.js",
+    "format": "prettier --write '**/*.{js,json,md}'",
+    "lint": "eslint worker.js test/"
+  },
+  "keywords": [
+    "ai",
+    "news",
+    "scraper",
+    "cloudflare-worker",
+    "api",
+    "aggregator"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.0.0",
+    "prettier": "^3.0.0",
+    "eslint": "^8.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-news-aggregator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ai-news-aggregator/issues"
+  },
+  "homepage": "https://github.com/yourusername/ai-news-aggregator#readme"
+}
