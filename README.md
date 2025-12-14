@@ -27,6 +27,8 @@ A Cloudflare Worker that scrapes and aggregates AI news and tools from multiple 
 3. **Copy** the code from `worker.js` and paste it into the editor
 4. **Save and deploy** - your Worker will be available at `https://your-worker.workers.dev`
 
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/tharunkumarmekala/AI-News-Tools-Aggregator-API)
+
 ### 2. Test the API
 
 ```bash
