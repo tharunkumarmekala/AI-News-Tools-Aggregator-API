@@ -1,0 +1,26 @@
+name = "ai-news-aggregator"
+main = "worker.js"
+compatibility_date = "2024-01-15"
+compatibility_flags = ["nodejs_compat"]
+
+# For development
+[dev]
+port = 8787
+
+# Deployment environments
+[env.production]
+workers_dev = true
+
+# Add routes if you have a custom domain
+# [[routes]]
+# pattern = "api.example.com/ai-news/*"
+# zone_name = "example.com"
+
+# Optional: Add secrets for configuration
+# [vars]
+# MAX_RETRIES = "3"
+# CACHE_TTL = "300"
+
+# Logging configuration
+[logpush]
+enabled = true
